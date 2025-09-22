@@ -11,6 +11,6 @@ const values= Math.floor((Math.random()*6)+1);
 result.push(values);
 img.push(`<img src="img/${values}.png" alt="dice">`);
 }
-resultDisplay.textContent=`dice:${result.join(",")}`;
+resultDisplay.textContent=`Dice:${result.join(", ")}`;
 imgDisplay.innerHTML = img.join(" ");
 }
